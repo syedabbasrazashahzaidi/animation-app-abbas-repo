@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.queen__run {
+background-color: pink;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.queen__run img {
+  height: 639px;
+  width: 1365px;
+  position: absolute;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .cloud__image{
+    height: 200px;
+    position: absolute;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  .cloud2__image{
+    height: 200px;
+    position: absolute;
+    margin-left: 500px;
+  
   }
-}
+
+  .cloud3__image{
+    height: 230px;
+    width: 400px;
+    position: absolute;
+    margin-left: 900px;
+
+  
+  }
+
+  /* .clouds__div {
+    height: 300px;
+    background-color:black;
+  } */
+
+  .small__pawn{
+    position: absolute;
+    margin-top:25%;
+    
+   
+  }
+
+  .palm1{
+    position: absolute;
+    height: 450px;
+    margin-left: 25%;
+    margin-top: 13%;
+    
+  }
+
+  .horse__pawn{
+    position:absolute;
+    margin-left:80%;
+    margin-top: 28%;
+  }
+
+  .dog__run{
+    position: absolute;
+    height: 250px;
+    margin-top: 27%;
+  }
+
